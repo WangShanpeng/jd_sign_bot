@@ -44,7 +44,7 @@ async function sendNotify (text,desp) {
 
 async function start() {
   if (!KEY) {
-    console.log('请填写 key 后在继续')
+    console.log('请填写key后再继续')
     return
   }
   // 下载最新代码
